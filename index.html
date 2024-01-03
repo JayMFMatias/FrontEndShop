@@ -25,10 +25,24 @@
             <th>Quantity</th>
             <th>Price</th>
           </tr>
-        
-        <!--AQUI VAO FICAR OS DADOS CONSOANTE A ESCOLHA DO UTILIZADOR-->
+      <!--AQUI VAO FICAR OS DADOS CONSOANTE A ESCOLHA DO UTILIZADOR-->
       </table>
+      <!--AQUI VAO SER INTRODUZIDOS NOVOS DADOS-->
+      <form onsubmit="sConsole(event)">
+        <label for="sellerName">Seller:</label><br>
+        <input type="text" id="sellerName" name="sellerName"><br> 
+        <label for="productName">Products:</label><br>
+        <input type="text" id="productName" name="productName"><br>
+        <label for="desc">Description:</label><br>
+        <input type="text" id="desc" name="desc"><br>
+        <label for="quantity">Quantity:</label><br>
+        <input step="0.1" type="number" id="quantity" name="quantity"><br>
+        <label for="price">Price:</label><br>
+        <input step="0.1" type="number" id="price" name="price"><br>
+        <input type="submit" value="Submit"><br>
         
+      </form>
+
     </main>
 	<script src="getProducts.js"></script>
   </body>
