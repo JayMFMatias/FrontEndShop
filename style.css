@@ -2,3 +2,21 @@
 {
     color:red;
 }
+
+.content-table
+{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px; 
+}
+.header
+{
+    color: darkgreen;
+    background-color: lightgreen;
+}
+.product-row
+{
+    color:rgb(0, 89, 255);
+    background-color: lightgreen;
+}

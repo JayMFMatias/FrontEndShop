@@ -10,17 +10,18 @@ try
     console.log(tableBody)
     data.forEach(element =>
     {
+        
         console.log(element)
         const row = document.createElement("tr")
+        row.className= "product-row";
         row.innerHTML =
         `
+        
         <td>${element.seller}</td>
         <td>${element.product_name}</td>
         <td>${element.product_desc}</td>
         <td>${element.quantity}</td>
         <td>${element.price}</td>
-
-
 
         `;
         tableBody.appendChild(row);
